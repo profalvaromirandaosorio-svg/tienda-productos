@@ -1,0 +1,11 @@
+.productos-main {
+  text-align: center;
+  padding: 20px;
+}
+
+.productos-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
