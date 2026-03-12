@@ -12,7 +12,7 @@ function App() {
         <Route path="/productos" element={<Productos />} />
         <Route path="/galeria" element={<Galeria />} />
       </Routes>
-    </Router>
+    </Router>  
   );
 }
 
