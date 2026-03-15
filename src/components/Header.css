@@ -24,3 +24,87 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+/*Modal del carrito de compra*/
+.modal-carrito{
+ position:fixed;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ background:rgba(0,0,0,0.5);
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ z-index:1000;
+}
+
+.modal-contenido{
+ background:white;
+ padding:20px;
+ border-radius:10px;
+ width:400px;
+ max-height:500px;
+ overflow:auto;
+ color:#000; /* ← CORRECCION texto visible */
+}
+
+/*Titulo del modal*/
+.modal-contenido h2{
+ margin-top:0;
+ text-align:center;
+}
+
+/*Cada producto*/
+.item-carrito{
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:10px;
+ margin-bottom:10px;
+ border-bottom:1px solid #ddd;
+ padding-bottom:10px;
+}
+
+/*Imagen del producto*/
+.item-carrito img{
+ border-radius:5px;
+}
+
+/*Texto del producto*/
+.item-carrito h4{
+ margin:0;
+ font-size:16px;
+ color:#000;
+}
+
+.item-carrito p{
+ margin:0;
+ font-size:14px;
+ color:#333;
+}
+
+/*Boton quitar*/
+.item-carrito button{
+ background:#e74c3c;
+ color:white;
+ border:none;
+ padding:5px 10px;
+ border-radius:5px;
+ cursor:pointer;
+}
+
+.item-carrito button:hover{
+ background:#c0392b;
+}
+
+/*Total*/
+.modal-contenido h3{
+ text-align:right;
+ margin-top:15px;
+}
+
+/*Boton cerrar*/
+.modal-contenido button{
+ margin-top:10px;
+}

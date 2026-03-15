@@ -10,10 +10,10 @@ import './Productos.css';
 
 const Productos = () => {
   const productos = [
-    { id: 1, nombre: 'Producto 1', descripcion: 'Descripción del producto 1', imagen: producto1 },
-    { id: 2, nombre: 'Producto 2', descripcion: 'Descripción del producto 2', imagen: producto2 },
-    { id: 3, nombre: 'Producto 3', descripcion: 'Descripción del producto 3', imagen: producto3 },
-    { id: 4, nombre: 'Producto 4', descripcion: 'Descripción del producto 4', imagen: producto4 },
+    { id: 1, nombre: 'Laptop Gamer', precio: 850000, descripcion: 'Laptop para gaming', imagen: producto1 },
+    { id: 2, nombre: 'Mouse Gamer', precio: 25000, descripcion: 'Mouse RGB', imagen: producto2 },
+    { id: 3, nombre: 'Teclado Mecánico', precio: 45000, descripcion: 'Teclado profesional', imagen: producto3 },
+    { id: 4, nombre: 'Monitor 24"', precio: 120000, descripcion: 'Monitor Full HD', imagen: producto4 },
   ];
 
   return (
