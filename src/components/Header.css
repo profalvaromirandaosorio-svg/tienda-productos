@@ -5,9 +5,11 @@
   padding: 15px 30px;
   background-color: #007bff;
   color: white;
+  background-image: url("../assets/react.svg");
 }
 
 .logo {
+ /* background-image: url("../assets/react.svg");*/
   display: flex;
   align-items: center;
   gap: 10px;
